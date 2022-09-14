@@ -1,0 +1,8 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/rubik.css);
+
+@import url(./components/App/App.css);
+@import url(./components/Header/Header.css);
+@import url(./components/Main/Main.css);
+@import url(./components/Main/AboutNootris/AboutNootris.css);
+@import url(./components/Main/BuyNootris/BuyNootris.css);
