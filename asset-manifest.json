@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/will-skill-test-task/static/css/main.abc4bc85.css",
+    "main.css": "/will-skill-test-task/static/css/main.7839c601.css",
     "main.js": "/will-skill-test-task/static/js/main.0866fe24.js",
     "static/js/787.2f2d1cf1.chunk.js": "/will-skill-test-task/static/js/787.2f2d1cf1.chunk.js",
     "static/media/nootris-group.png": "/will-skill-test-task/static/media/nootris-group.be2633594e063146c1c6.png",
@@ -17,12 +17,12 @@
     "index.html": "/will-skill-test-task/index.html",
     "static/media/close-button.svg": "/will-skill-test-task/static/media/close-button.47a9344c64aa39423eaf.svg",
     "static/media/burger-button.svg": "/will-skill-test-task/static/media/burger-button.a4a9c1e9a4334d7ae8fe6b073a43266f.svg",
-    "main.abc4bc85.css.map": "/will-skill-test-task/static/css/main.abc4bc85.css.map",
+    "main.7839c601.css.map": "/will-skill-test-task/static/css/main.7839c601.css.map",
     "main.0866fe24.js.map": "/will-skill-test-task/static/js/main.0866fe24.js.map",
     "787.2f2d1cf1.chunk.js.map": "/will-skill-test-task/static/js/787.2f2d1cf1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.abc4bc85.css",
+    "static/css/main.7839c601.css",
     "static/js/main.0866fe24.js"
   ]
 }
