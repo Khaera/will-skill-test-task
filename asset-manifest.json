@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.6e058a89.css",
-    "main.js": "/static/js/main.f5647af2.js",
-    "static/js/787.2f2d1cf1.chunk.js": "/static/js/787.2f2d1cf1.chunk.js",
-    "static/media/nootris-group.png": "/static/media/nootris-group.be2633594e063146c1c6.png",
-    "static/media/Rubik-Bold.woff": "/static/media/Rubik-Bold.87117101c42fdb69d98a.woff",
-    "static/media/Rubik-Regular.woff": "/static/media/Rubik-Regular.9b504b121d513b85cf70.woff",
-    "static/media/Rubik-Bold.woff2": "/static/media/Rubik-Bold.15b537d9fdb84230fd6e.woff2",
-    "static/media/Rubik-Regular.woff2": "/static/media/Rubik-Regular.7faeaac164d429f053a1.woff2",
-    "static/media/nootris.png": "/static/media/nootris.be02eca4c04f0a4ee682.png",
-    "static/media/ginger.png": "/static/media/ginger.c1f45923231f0c98a6e8.png",
-    "static/media/virus.png": "/static/media/virus.1a2d0aaad6d7debbdfd0.png",
-    "static/media/header-logo.svg": "/static/media/header-logo.a620e0c698aed832f511.svg",
-    "static/media/background.svg": "/static/media/background.acfeaebb59c54842b6aa.svg",
-    "static/media/header-basket.svg": "/static/media/header-basket.65cfd98eeca0f4e50a26.svg",
-    "index.html": "/index.html",
-    "static/media/close-button.svg": "/static/media/close-button.47a9344c64aa39423eaf.svg",
-    "static/media/burger-button.svg": "/static/media/burger-button.a4a9c1e9a4334d7ae8fe6b073a43266f.svg",
-    "main.6e058a89.css.map": "/static/css/main.6e058a89.css.map",
-    "main.f5647af2.js.map": "/static/js/main.f5647af2.js.map",
-    "787.2f2d1cf1.chunk.js.map": "/static/js/787.2f2d1cf1.chunk.js.map"
+    "main.css": "/will-skill-test-task/static/css/main.abc4bc85.css",
+    "main.js": "/will-skill-test-task/static/js/main.0866fe24.js",
+    "static/js/787.2f2d1cf1.chunk.js": "/will-skill-test-task/static/js/787.2f2d1cf1.chunk.js",
+    "static/media/nootris-group.png": "/will-skill-test-task/static/media/nootris-group.be2633594e063146c1c6.png",
+    "static/media/Rubik-Bold.woff": "/will-skill-test-task/static/media/Rubik-Bold.87117101c42fdb69d98a.woff",
+    "static/media/Rubik-Regular.woff": "/will-skill-test-task/static/media/Rubik-Regular.9b504b121d513b85cf70.woff",
+    "static/media/Rubik-Bold.woff2": "/will-skill-test-task/static/media/Rubik-Bold.15b537d9fdb84230fd6e.woff2",
+    "static/media/Rubik-Regular.woff2": "/will-skill-test-task/static/media/Rubik-Regular.7faeaac164d429f053a1.woff2",
+    "static/media/nootris.png": "/will-skill-test-task/static/media/nootris.be02eca4c04f0a4ee682.png",
+    "static/media/ginger.png": "/will-skill-test-task/static/media/ginger.c1f45923231f0c98a6e8.png",
+    "static/media/virus.png": "/will-skill-test-task/static/media/virus.1a2d0aaad6d7debbdfd0.png",
+    "static/media/header-logo.svg": "/will-skill-test-task/static/media/header-logo.a620e0c698aed832f511.svg",
+    "static/media/background.svg": "/will-skill-test-task/static/media/background.acfeaebb59c54842b6aa.svg",
+    "static/media/header-basket.svg": "/will-skill-test-task/static/media/header-basket.65cfd98eeca0f4e50a26.svg",
+    "index.html": "/will-skill-test-task/index.html",
+    "static/media/close-button.svg": "/will-skill-test-task/static/media/close-button.47a9344c64aa39423eaf.svg",
+    "static/media/burger-button.svg": "/will-skill-test-task/static/media/burger-button.a4a9c1e9a4334d7ae8fe6b073a43266f.svg",
+    "main.abc4bc85.css.map": "/will-skill-test-task/static/css/main.abc4bc85.css.map",
+    "main.0866fe24.js.map": "/will-skill-test-task/static/js/main.0866fe24.js.map",
+    "787.2f2d1cf1.chunk.js.map": "/will-skill-test-task/static/js/787.2f2d1cf1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e058a89.css",
-    "static/js/main.f5647af2.js"
+    "static/css/main.abc4bc85.css",
+    "static/js/main.0866fe24.js"
   ]
 }
