@@ -119,6 +119,12 @@
   background: #fcb500;
   border: none;
   border-radius: 7px;
+  cursor: pointer;
+}
+
+.buy-nootris__submit-button:hover {
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
 }
 
 @media screen and (max-width: 867px) {

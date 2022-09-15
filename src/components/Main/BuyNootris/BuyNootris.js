@@ -49,7 +49,9 @@ function BuyNootris() {
             </p>
           </li>
         </ul>
-        <button className="buy-nootris__submit-button">Оформить заказ!</button>
+        <button className="buy-nootris__submit-button" type="submit">
+          Оформить заказ!
+        </button>
       </div>
     </section>
   );

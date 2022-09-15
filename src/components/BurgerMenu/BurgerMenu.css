@@ -26,6 +26,12 @@
   border: none;
   cursor: pointer;
 }
+
+.burger__close-button:hover {
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
 .burger__container {
   position: relative;
   background: #202020;
@@ -47,7 +53,7 @@
   visibility: hidden;
 }
 
-@media screen and (min-width: 1331px) {
+@media screen and (min-width: 1351px) {
   .burger {
     display: none;
   }

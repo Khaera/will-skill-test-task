@@ -31,6 +31,12 @@
   width: 42px;
   height: 37px;
   border: none;
+  cursor: pointer;
+}
+
+.header__basket:hover {
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
 }
 
 .header__buttons {
@@ -50,13 +56,16 @@
   margin-left: 20px;
 }
 
-@media screen and (max-width: 1330px) {
+.header__burger-button:hover {
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+@media screen and (max-width: 1350px) {
   .header__container {
     justify-content: space-between;
   }
-}
 
-@media screen and (max-width: 1330px) {
   .header__burger-button {
     display: block;
   }

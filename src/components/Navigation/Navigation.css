@@ -22,7 +22,12 @@
   margin-right: 0;
 }
 
-@media screen and (max-width: 1330px) {
+.navigation-link:hover {
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+@media screen and (max-width: 1350px) {
   .navigation {
     display: none;
   }
