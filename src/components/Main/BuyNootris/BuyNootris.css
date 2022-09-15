@@ -13,7 +13,7 @@
   text-align: center;
   max-width: 1000px;
   margin: 0 auto;
-  margin-top: 110px;
+  margin-top: 115px;
   font-weight: 700;
   font-size: 48px;
   line-height: 57px;
@@ -125,6 +125,12 @@
 .buy-nootris__submit-button:hover {
   opacity: 0.6;
   transition: opacity 0.3s ease;
+}
+
+.buy-nootris__submit-button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  transition: transform 0.1s ease;
 }
 
 @media screen and (max-width: 867px) {

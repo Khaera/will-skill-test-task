@@ -15,8 +15,8 @@
   left: 104px;
   background: url(../../images/header-logo.svg);
   background-repeat: no-repeat;
-  background-size: contain;
-  width: 120px;
+  background-size: cover;
+  width: 127px;
   height: 34px;
   margin-right: 104px;
   z-index: 10;
@@ -43,6 +43,7 @@
   margin-top: 23px;
   display: flex;
   align-items: center;
+  margin-right: 10px;
 }
 
 .header__burger-button {

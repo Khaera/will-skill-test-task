@@ -1,7 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 function BurgerMenu({ isOpen, toggleBurger }) {
   return (
-    <div className={`burger ${isOpen ? "burger_opened" : "burger_hidden"}`}>
+    <div className={`burger ${isOpen && "burger_opened"}`}>
+      <p className="header__logo burger__logo"></p>
       <button
         className="burger__close-button"
         type="button"
