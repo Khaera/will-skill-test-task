@@ -1,4 +1,10 @@
+.buy-nootris {
+  width: 100%;
+}
 .buy-nootris__container {
+  max-width: 1440px;
+  width: 91%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
 }
@@ -21,10 +27,12 @@
 }
 
 .buy-nootris__price {
+  max-width: 230px;
+  width: 100%;
   display: flex;
   align-items: center;
   margin: 0 auto;
-  margin-top: 85px;
+  margin-top: 80px;
 }
 
 .buy-nootris__price-old {
@@ -42,7 +50,7 @@
   align-self: flex-start;
   margin: 0;
   padding: 0;
-  margin-left: 30px;
+  margin-left: 44px;
   font-weight: 400;
   font-size: 48px;
   line-height: 57px;
@@ -50,11 +58,13 @@
 }
 
 .buy-nootris__items {
-  margin: 0;
-  margin-top: 50px;
+  max-width: 1087px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 29px;
   padding: 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .buy-nootris__item {
@@ -62,6 +72,7 @@
   flex-direction: column;
   font-size: 18px;
   line-height: 21px;
+  margin-top: 0px;
 }
 
 .buy-nootris__item-heading {
@@ -78,13 +89,19 @@
 }
 
 .buy-nootris__item:nth-child(2) {
-  margin-top: 9px;
+  margin-top: 15px;
   font-size: 36px;
   line-height: 43px;
 }
 
 .buy-nootris__item:nth-child(2) > p {
-  margin-top: 45px;
+  margin-top: 48px;
+}
+
+.buy-nootris__item-image {
+  width: 100%;
+  height: 60%;
+  object-fit: contain;
 }
 
 .buy-nootris__submit-button {
@@ -92,7 +109,7 @@
   margin-top: 64px;
   margin-bottom: 112px;
   padding: 0;
-  width: 18%;
+  width: 17.8%;
   height: 56px;
   font-weight: 400;
   font-size: 18px;
@@ -100,5 +117,91 @@
   text-align: center;
   color: #000000;
   background: #fcb500;
+  border: none;
   border-radius: 7px;
+}
+
+@media screen and (max-width: 867px) {
+  .buy-nootris__title {
+    font-size: 42px;
+    line-height: 49px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 867px) {
+  .buy-nootris__items {
+    margin-top: 15px;
+  }
+
+  .buy-nootris__title {
+    margin-top: 30px;
+    font-size: 32px;
+    line-height: 41px;
+  }
+
+  .buy-nootris__price {
+    margin-top: 30px;
+    justify-content: center;
+  }
+
+  .buy-nootris__price-old {
+    font-size: 30px;
+  }
+
+  .buy-nootris__price span {
+    font-size: 36px;
+    margin-left: 10px;
+  }
+
+  .buy-nootris__submit-button {
+    width: 40%;
+    height: 42px;
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 30px;
+  }
+
+  .buy-nootris__item:nth-child(2) {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (min-width: 411px) and (max-width: 478px) {
+  .buy-nootris__item:nth-child(2) {
+    margin-top: 15px;
+    font-size: 20px;
+    line-height: 21px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 410px) {
+  .buy-nootris__container {
+    width: 85%;
+  }
+
+  .buy-nootris__items {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .buy-nootris__item-heading {
+    margin-top: 10px;
+  }
+
+  .buy-nootris__item {
+    margin-top: 50px;
+  }
+
+  .buy-nootris__item:nth-child(2) {
+    margin-top: 50px;
+  }
+
+  .buy-nootris__item:first-of-type {
+    margin-top: 0;
+  }
+
+  .buy-nootris__submit-button {
+    width: 80%;
+  }
 }

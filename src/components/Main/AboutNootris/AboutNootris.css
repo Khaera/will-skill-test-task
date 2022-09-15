@@ -7,11 +7,14 @@
   background-repeat: no-repeat;
 }
 
+.about-nootris__wrapper {
+  margin-left: 64px;
+}
+
 .about-nootris__container {
-  width: 91%;
+  max-width: 1440px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
 }
 
 .about-nootris__wrapper > span {
@@ -21,6 +24,8 @@
   font-size: 36px;
   line-height: 43px;
   color: #000000;
+  z-index: 2;
+  position: relative;
 }
 
 .about-nootris__description-help {
@@ -32,6 +37,8 @@
   line-height: 21px;
   color: #000000;
   max-width: 350px;
+  z-index: 2;
+  position: relative;
 }
 
 .about-nootris__title {
@@ -48,6 +55,8 @@
 }
 
 .about-nootris__description {
+  position: relative;
+  z-index: 2;
   margin: 0;
   margin-top: 32px;
   margin-bottom: 109px;
@@ -59,10 +68,12 @@
 }
 
 .about-nootris__image {
-  max-width: 100%;
+  max-width: 750px;
+  width: 80%;
+  max-height: 845px;
   height: 100%;
-  object-fit: cover;
-  margin-left: -379px;
+  object-fit: contain;
+  margin-left: -427px;
   margin-top: 61px;
   margin-bottom: -320px;
   z-index: 1;
@@ -70,10 +81,88 @@
 
 @media screen and (min-width: 768px) and (max-width: 1300px) {
   .about-nootris__title {
-    font-size: 60px;
-    line-height: 50px;
+    font-size: 76px;
+    line-height: 70px;
+  }
+
+  .about-nootris__description {
+    max-width: 350px;
   }
   .about-nootris__image {
-    width: 60%;
+    margin-top: 80px;
+    margin-bottom: -200px;
+  }
+
+  .about-nootris__wrapper > span {
+    display: inline-block;
+    margin-top: 200px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .about-nootris__description {
+    max-width: 500px;
+    line-height: 26px;
+  }
+
+  .about-nootris__description-help {
+    max-width: 170px;
+  }
+
+  .about-nootris__image {
+    margin-bottom: -200px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .about-nootris__container {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .about-nootris__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .about-nootris__title {
+    margin-top: 10px;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: left;
+  }
+
+  .about-nootris__description {
+    margin-bottom: 20px;
+  }
+  .about-nootris__wrapper {
+    margin-left: 0;
+  }
+
+  .about-nootris__wrapper > span {
+    display: block;
+    font-size: 20px;
+    line-height: 20px;
+    max-width: 100px;
+  }
+
+  .about-nootris__image {
+    margin: 0;
+    margin-top: -280px;
+    margin-bottom: -40px;
+    margin-left: 76px;
+  }
+}
+
+@media screen and (min-width: 432px) and (max-width: 767px) {
+  .about-nootris__wrapper {
+    justify-content: space-between;
+  }
+  .about-nootris__description {
+    max-width: 380px;
+  }
+
+  .about-nootris__description-help {
+    max-width: 300px;
   }
 }
