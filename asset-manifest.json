@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.12f1baf3.css",
+    "main.js": "/static/js/main.6a193108.js",
+    "static/js/787.2f2d1cf1.chunk.js": "/static/js/787.2f2d1cf1.chunk.js",
+    "static/media/nootris-group.png": "/static/media/nootris-group.0b3e309fa9b5d332b58f.png",
+    "static/media/Rubik-Bold.woff": "/static/media/Rubik-Bold.87117101c42fdb69d98a.woff",
+    "static/media/Rubik-Regular.woff": "/static/media/Rubik-Regular.9b504b121d513b85cf70.woff",
+    "static/media/nootris.png": "/static/media/nootris.a98dfea5ac4269112828.png",
+    "static/media/Rubik-Bold.woff2": "/static/media/Rubik-Bold.15b537d9fdb84230fd6e.woff2",
+    "static/media/Rubik-Regular.woff2": "/static/media/Rubik-Regular.7faeaac164d429f053a1.woff2",
+    "static/media/ginger.png": "/static/media/ginger.dba0a6a7ced7dc6dfa6c.png",
+    "static/media/virus.png": "/static/media/virus.82ac73bcfa372dfe007e.png",
+    "static/media/header-logo.svg": "/static/media/header-logo.a620e0c698aed832f511.svg",
+    "static/media/background.svg": "/static/media/background.acfeaebb59c54842b6aa.svg",
+    "static/media/header-basket.svg": "/static/media/header-basket.65cfd98eeca0f4e50a26.svg",
+    "index.html": "/index.html",
+    "static/media/close-button.svg": "/static/media/close-button.47a9344c64aa39423eaf.svg",
+    "static/media/burger-button.svg": "/static/media/burger-button.a4a9c1e9a4334d7ae8fe6b073a43266f.svg",
+    "main.12f1baf3.css.map": "/static/css/main.12f1baf3.css.map",
+    "main.6a193108.js.map": "/static/js/main.6a193108.js.map",
+    "787.2f2d1cf1.chunk.js.map": "/static/js/787.2f2d1cf1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12f1baf3.css",
+    "static/js/main.6a193108.js"
+  ]
+}
