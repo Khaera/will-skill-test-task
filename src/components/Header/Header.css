@@ -15,7 +15,7 @@
   left: 104px;
   background: url(../../images/header-logo.svg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   width: 127px;
   height: 34px;
   margin-right: 104px;

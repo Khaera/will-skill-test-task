@@ -73,6 +73,10 @@
     width: 100%;
   }
 
+  .burger__logo {
+    display: block;
+  }
+
   .burger__close-button {
     right: 20px;
   }
